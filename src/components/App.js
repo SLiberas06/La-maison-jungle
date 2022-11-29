@@ -1,10 +1,11 @@
 import React from 'react';
 import Banner from './Banner'
 // import Cart from './Cart'
-import ShoppingList from './ShoppingList';
+import ShoppingList from './ShoppingList'
+import Footer from './Footer'
 
 function App() {
-  return <div><Banner/><ShoppingList/></div>
+  return <div><Banner/><ShoppingList/><Footer/></div>
 
 }
 
