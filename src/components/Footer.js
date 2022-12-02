@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../styles/Footer.css";
 
 function Footer() {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState("")
 
   function handleInput(e) {
     setInputValue(e.target.value);
