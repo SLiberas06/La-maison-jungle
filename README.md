@@ -1,5 +1,5 @@
 # La-maison-jungle
-mini projet REACT
+Mini projet REACT - Site de vente de plantes
 
 1) installation Create-React-App : 
 npx create-react-app la-maison-jungle
