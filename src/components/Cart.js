@@ -19,7 +19,7 @@ function Cart({cart, updateCart}) {
         className="lmj-cart-toggle-button"
         onClick={() => setIsOpen(false)}
       >
-        Fermer
+      Fermer
       </button>
       {cart.length > 0 ? (
         <div>
@@ -32,7 +32,7 @@ function Cart({cart, updateCart}) {
         ))}
       </ul>
       <h3>Total : {total}€</h3>
-      <button onClick={() => updateCart([])}>Vider le panier</button>
+      <button className= "button-style" onClick={() => updateCart([])}>Vider le panier</button>
     </div>
   ) : (
     <div>Votre panier est vide</div>

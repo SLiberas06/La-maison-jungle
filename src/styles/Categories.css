@@ -5,4 +5,8 @@
 
 .lmj-categories-select {
 	margin-right: 15px;
+	padding: 5px;
+		border-radius: 5px;
+		font-size: 15px;
+		text-transform: capitalize;
 }

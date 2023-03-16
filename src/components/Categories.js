@@ -12,7 +12,7 @@ function Categories ({ setActiveCategory, categories, activeCategory}) {
                         <option key={cat} value={cat}>{cat}</option>
                     ))}
             </select>
-            <button onClick={()=> setActiveCategory('')}>Réinitialiser</button>
+            <button className="button-style"onClick={()=> setActiveCategory('')}>Réinitialiser</button>
         </div>
     )
 }

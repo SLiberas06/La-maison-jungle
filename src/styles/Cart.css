@@ -11,18 +11,21 @@
 .lmj-cart-add-button {
     margin-left: 32px;
     cursor: pointer;
+    
 }
 
 .lmj-cart-toggle-button {
-    background: none;
+    background-color: grey;
+        padding: 5px;
     outline: none;
     border: none;
     font-weight: 600;
     cursor: pointer;
     align-self: self-start;
-    padding: 0;
+    border-radius: 5px;
     color: white;
     align-self: flex-end;
+    font-size: 15px;
 }
 
 .lmj-cart-closed{
@@ -32,4 +35,5 @@
 
 .lmj-cart-closed > button{
 color: black;
+background-color: #31b572;
 }
