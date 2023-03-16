@@ -15,3 +15,6 @@
 .button-style:hover {
 	box-shadow: 1px 1px 12px grey;
 }
+.indice-pointer {
+	cursor: pointer;
+}

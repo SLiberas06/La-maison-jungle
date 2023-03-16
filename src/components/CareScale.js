@@ -11,9 +11,9 @@ function CareScale({ scaleValue, careType }) {
 
   const scaleType =
     careType === "light" ? (
-      <img src={Sun} alt="sun-icon" />
+      <img className="indice-pointer" src={Sun} alt="sun-icon" />
     ) : (
-      <img src={Water} alt="water-icon" onClick={() => handleClick(careType)} />
+      <img className="indice-pointer" src={Water} alt="water-icon" onClick={() => handleClick(careType)} />
     );
 
   return (
